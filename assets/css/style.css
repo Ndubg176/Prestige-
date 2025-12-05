@@ -76,8 +76,9 @@ p {
 }
 
 /* ===== NAVIGATION ===== */
-header.hero, .page-header {
-    background: linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.9));
+header.hero {
+    background: linear-gradient(rgba(26, 26, 26, 0.85), rgba(26, 26, 26, 0.7)), 
+                url('../img/hero-bg.jpg') center/cover no-repeat;
     min-height: 100vh;
     color: white;
     position: relative;
@@ -86,6 +87,8 @@ header.hero, .page-header {
 }
 
 .page-header {
+    background: linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.8)), 
+                url('../img/hero-bg.jpg') center/cover no-repeat;
     min-height: 50vh;
     justify-content: center;
     text-align: center;
