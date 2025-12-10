@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Prestige Summit Co</title>
+    <meta name="description" content="View our portfolio of luxury construction projects and fine finish work.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <nav>
+            <a href="index.html" class="logo-link">
+                <div class="logo-placeholder">PS</div>
+            </a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html" class="btn nav-btn">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Project Portfolio</h1>
+    </header>
+
+    <main class="page-content">
+        <p class="section-subtitle">A showcase of our recent luxury construction and finish work projects.</p>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <div class="image-placeholder">🏠</div>
+                <h3>Modern Luxury Residence</h3>
+                <p>Complete custom build with premium finishes</p>
+            </div>
+            <div class="gallery-item">
+                <div class="image-placeholder">🏢</div>
+                <h3>Commercial Office Space</h3>
+                <p>High-end commercial interior build-out</p>
+            </div>
+            <div class="gallery-item">
+                <div class="image-placeholder">🍽️</div>
+                <h3>Kitchen Transformation</h3>
+                <p>Full kitchen remodel with custom cabinetry</p>
+            </div>
+            <div class="gallery-item">
+                <div class="image-placeholder">🛁</div>
+                <h3>Luxury Bathroom</h3>
+                <p>Spa-like bathroom renovation</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">PS</div>
+                    <p>Building exceptional spaces with precision and craftsmanship since 2025.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3c5f5352485d5f487c4c4e594f48555b594f4951515548125f5351">[email&#160;protected]</a></p>
+                    <p><strong>Address:</strong> 123 Prestige Ave, Suite 100<br>Your City, ST 12345</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Prestige Summit Co. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Houzz">Houzz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/main.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ab30878886bc8da',t:'MTc2NTI2NzkwMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

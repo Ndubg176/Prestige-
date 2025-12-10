@@ -1,0 +1,172 @@
+# As a condition of accessing this website, you agree to abide by the following
+# content signals:
+
+# (a)  If a content-signal = yes, you may collect content for the corresponding
+#      use.
+# (b)  If a content-signal = no, you may not collect content for the
+#      corresponding use.
+# (c)  If the website operator does not include a content signal for a
+#      corresponding use, the website operator neither grants nor restricts
+#      permission via content signal with respect to the corresponding use.
+
+# The content signals and their meanings are:
+
+# search:   building a search index and providing search results (e.g., returning
+#           hyperlinks and short excerpts from your website's contents). Search does not
+#           include providing AI-generated search summaries.
+# ai-input: inputting content into one or more AI models (e.g., retrieval
+#           augmented generation, grounding, or other real-time taking of content for
+#           generative AI search answers).
+# ai-train: training or fine-tuning AI models.
+
+# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF
+# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT
+# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.
+
+# BEGIN Cloudflare Managed content
+
+User-Agent: *
+Content-signal: search=yes,ai-train=no
+Allow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+# END Cloudflare Managed Content
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Summit Co | Luxury Construction & Development</title>
+    <meta name="description" content="High-end residential & commercial development, fine finish fabrication, and elite installation. Crafting excellence since 2025.">
+    <meta name="keywords" content="luxury construction, custom builds, finish carpentry, remodeling, commercial development">
+    <meta name="author" content="Prestige Summit Co">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <a href="index.html" class="logo-link">
+                <div class="logo-placeholder">PS</div>
+            </a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html" class="btn nav-btn">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1 class="fade-in">Crafting Excellence.<br>Building the Future.</h1>
+            <p class="hero-subtitle slide-up">High-end residential & commercial development, fine finish fabrication, and elite installation.</p>
+            <div class="hero-buttons">
+                <a href="services.html" class="btn btn-primary">Explore Services</a>
+                <a href="portfolio.html" class="btn btn-secondary">View Portfolio</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>What We Specialize In</h2>
+            <p class="section-subtitle">Precision craftsmanship meets innovative design for extraordinary results.</p>
+            
+            <div class="grid">
+                <div class="card slide-up">
+                    <div class="card-icon">🏗️</div>
+                    <h3>Custom Builds</h3>
+                    <p>Luxury residential & commercial development from ground up with premium materials.</p>
+                </div>
+                <div class="card slide-up">
+                    <div class="card-icon">🔨</div>
+                    <h3>Finish Carpentry</h3>
+                    <p>Elite trim, molding, cabinetry & precision installations with attention to detail.</p>
+                </div>
+                <div class="card slide-up">
+                    <div class="card-icon">🛠️</div>
+                    <h3>Remodeling</h3>
+                    <p>Kitchen, bath & full interior transformations that elevate living spaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Contact us for a free consultation and estimate.</p>
+            <a href="contact.html" class="btn btn-large">Get In Touch</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">PS</div>
+                    <p>Building exceptional spaces with precision and craftsmanship since 2025.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> contact@prestigesummit.com</p>
+                    <p><strong>Address:</strong> 123 Prestige Ave, Suite 100<br>Your City, ST 12345</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Prestige Summit Co. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Houzz">Houzz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
